@@ -1,0 +1,23 @@
+root@kali:~# nslookup
+> wipro.com
+Server:		203.187.215.35
+Address:	203.187.215.35#53
+
+Non-authoritative answer:
+Name:	wipro.com
+Address: 209.11.159.61
+> set type=MX
+> wipro.com
+Server:		203.187.215.35
+Address:	203.187.215.35#53
+
+Non-authoritative answer:
+wipro.com	mail exchanger = 0 wipro-com.mail.protection.outlook.com.
+
+Authoritative answers can be found from:
+wipro.com	nameserver = ns4.webindia.com.
+wipro.com	nameserver = ns2.webindia.com.
+wipro.com	nameserver = ns1.webindia.com.
+ns1.webindia.com	internet address = 50.16.170.116
+ns2.webindia.com	internet address = 34.235.29.171
+ns4.webindia.com	internet address = 54.66.0.69 
