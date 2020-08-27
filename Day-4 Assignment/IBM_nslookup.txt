@@ -1,0 +1,36 @@
+root@kali:~# nslookup
+> ibm.com
+Server:		203.187.215.35
+Address:	203.187.215.35#53
+
+Non-authoritative answer:
+Name:	ibm.com
+Address: 129.42.38.10
+> set type=MX
+> ibm.com
+Server:		203.187.215.35
+Address:	203.187.215.35#53
+
+Non-authoritative answer:
+ibm.com	mail exchanger = 5 mx0b-001b2d01.pphosted.com.
+ibm.com	mail exchanger = 5 mx0a-001b2d01.pphosted.com.
+
+Authoritative answers can be found from:
+ibm.com	nameserver = asia3.akam.net.
+ibm.com	nameserver = eur5.akam.net.
+ibm.com	nameserver = ns1-99.akam.net.
+ibm.com	nameserver = eur2.akam.net.
+ibm.com	nameserver = usc3.akam.net.
+ibm.com	nameserver = usw2.akam.net.
+ibm.com	nameserver = usc2.akam.net.
+ibm.com	nameserver = ns1-206.akam.net.
+eur2.akam.net	internet address = 95.100.173.64
+eur5.akam.net	internet address = 23.74.25.64
+usc2.akam.net	internet address = 184.26.160.64
+usc3.akam.net	internet address = 96.7.50.64
+usw2.akam.net	internet address = 184.26.161.64
+asia3.akam.net	internet address = 23.211.61.64
+ns1-99.akam.net	internet address = 193.108.91.99
+ns1-99.akam.net	has AAAA address 2600:1401:2::63
+ns1-206.akam.net	internet address = 193.108.91.206
+ns1-206.akam.net	has AAAA address 2600:1401:2::ce
